@@ -2,7 +2,7 @@
   "name": "meli-frontend-challenge-monorepo",
   "private": true,
   "scripts": {
-    "build": "turbo build",
+    "build": "tsup packages/ui/src/SearchBar/index.tsx --format cjs,esm --dts",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
@@ -20,5 +20,12 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts"
 }
