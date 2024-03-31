@@ -1,5 +1,5 @@
 {
-  "extends": "@meli-frontend-challenge-monorepo/typescript-config/react-library.json",
+  "extends": "./react-library.json",
   "compilerOptions": {
     "outDir": "dist"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@meli-frontend-challenge-monorepo/ui",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "private": false,
   "exports": {
     "./button": "./src/button.tsx",
@@ -25,6 +25,6 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@meli-frontend-challenge-monorepo/typescript-config": "^1.0.0"
+    "@meli-frontend-challenge-monorepo/typescript-config": "^2.0.0"
   }
 }

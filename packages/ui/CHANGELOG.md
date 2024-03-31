@@ -1,5 +1,19 @@
 # @repo/ui
 
+## 6.0.0
+
+### Major Changes
+
+- 512ed5c: new version
+- b721ba1: new version
+- new version
+- d55905a: new version
+
+### Patch Changes
+
+- Updated dependencies [b721ba1]
+  - @meli-frontend-challenge-monorepo/typescript-config@2.0.0
+
 ## 5.0.0
 
 ### Major Changes
