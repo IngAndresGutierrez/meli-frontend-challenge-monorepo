@@ -1,7 +1,7 @@
 {
-  "name": "@repo/eslint-config",
+  "name": "@meli-frontend-challenge-monorepo/eslint-config",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "files": [
     "library.js",
     "next.js",
