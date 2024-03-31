@@ -1,5 +1,11 @@
 # @repo/ui
 
+## 9.0.0
+
+### Major Changes
+
+- new version
+
 ## 8.0.0
 
 ### Major Changes
