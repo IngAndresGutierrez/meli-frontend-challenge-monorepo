@@ -1,11 +1,10 @@
 {
   "name": "meli-frontend-challenge-monorepo",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "tsup packages/ui/src/SearchBar/index.tsx --format cjs,esm --dts",
-    "publish-packages": "npx turbo run build lint test && npx changeset version && npx changeset publish",
+    "publish-packages": "npx turbo run build lint && npx changeset version && npx changeset publish --access=public",
     "dev": "turbo dev",
-    "test": "",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
