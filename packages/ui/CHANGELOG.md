@@ -1,5 +1,11 @@
 # @repo/ui
 
+## 7.0.0
+
+### Major Changes
+
+- new version
+
 ## 6.0.0
 
 ### Major Changes
