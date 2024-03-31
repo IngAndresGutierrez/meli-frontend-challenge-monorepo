@@ -1,5 +1,5 @@
 {
-  "name": "@repo/ui",
+  "name": "@meli-frontend-challenge-monorepo/ui",
   "version": "4.0.0",
   "private": false,
   "exports": {
