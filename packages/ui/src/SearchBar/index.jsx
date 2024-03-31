@@ -1,7 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import { ChangeEvent, useState } from 'react'
+import {  useState } from 'react'
 
 import './styles.css'
 
@@ -15,7 +15,7 @@ const SearchBar = () => {
     )
   }
 
-  const handleQuery = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleQuery = (e) => {
     setQuery(e.target.value)
   }
 
